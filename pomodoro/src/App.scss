@@ -1,0 +1,53 @@
+body {
+	background: #0c141f;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	font-family: Bangers;
+}
+
+.App {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.title {
+	color: #6fc3df;
+	font-size: 8em;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 2rem;
+}
+
+.clock {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	span {
+		color: #df740c;
+		font-size: 8em;
+	}
+
+	span:first-child {
+	}
+}
+
+.buttons-container {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+button {
+	background: #ffe64d;
+	font-size: 1.2em;
+	color: #0c141f;
+	padding: 15px 20px;
+	margin-right: 1rem;
+	border: none;
+	border-radius: 10px;
+}
